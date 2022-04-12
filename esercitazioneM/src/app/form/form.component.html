@@ -1,0 +1,23 @@
+<div>
+    <form novalidate (submit)="addPizza(f)" #f="ngForm">
+        <p>
+            <mat-form-field appearance="outline">
+                <mat-label>Gusto</mat-label>
+                <input matInput placeholder="Placeholder" name="pizza">
+                <mat-icon matSuffix>pizza</mat-icon>
+            </mat-form-field>
+        </p>
+        <p>
+            <mat-form-field appearance="fill">
+                <mat-label>Scegli rate</mat-label>
+                <mat-select [disabled]="disable">
+                    <mat-option *ngFor="let i of getRates()" value="{{i}}">{{i}}</mat-option>
+
+                </mat-select>
+            </mat-form-field>
+        </p>
+        <p>
+            <button mat-fab type="submit" [disabled]="disable"><mat-icon>add</mat-icon></button>
+        </p>
+    </form>
+</div>

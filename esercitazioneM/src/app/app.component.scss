@@ -1,0 +1,25 @@
+.container {
+    display: inline-flex;
+    width: 100%;
+    padding: 40px;
+}
+
+section {
+    width: 50%;
+    margin: 16px;
+}
+
+.blue {
+    background-color: aqua;
+    color: black;
+}
+
+.yellow {
+    background-color: yellow;
+    color: green;
+}
+
+.div {
+    height: 300px;
+    background-color: antiquewhite;
+}

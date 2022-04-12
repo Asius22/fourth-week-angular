@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.col {
+    font-size: 20px;
+    color: gray;
+    flex-direction: column;
+}
+
+.res {
+    font-size: 50px;
+    font-weight: bold;
+}
