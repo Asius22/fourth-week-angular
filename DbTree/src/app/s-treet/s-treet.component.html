@@ -1,0 +1,11 @@
+<mat-accordion>
+    <mat-expansion-panel (opened)="panelOpenState = true; getAll()" (closed)="panelOpenState = false">
+        <mat-expansion-panel-header>
+            <mat-panel-title>
+                Lista di tutti gli studenti
+            </mat-panel-title>
+
+        </mat-expansion-panel-header>
+        <p *ngFor="let el of dataSource"> {{el.id}} {{el.name}} {{el.numberPassport}} </p>
+    </mat-expansion-panel>
+</mat-accordion>

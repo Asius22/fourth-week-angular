@@ -1,0 +1,7 @@
+.tastierino {
+  display: grid;
+  width: 100%;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  margin-top: 16px;
+}

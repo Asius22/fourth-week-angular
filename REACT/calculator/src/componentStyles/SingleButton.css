@@ -1,0 +1,13 @@
+button {
+  border: none;
+  background-color: gray;
+  color: black;
+  padding: 32px;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.number {
+  background-color: gray;
+  color: white;
+}
